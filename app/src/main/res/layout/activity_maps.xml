@@ -1,0 +1,49 @@
+
+<fragment xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/map"
+    android:name="com.google.android.gms.maps.SupportMapFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.akash.loktra.MapsActivity" >
+
+    <TextView
+        android:id="@+id/display"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="5dp"
+        android:layout_marginTop="80dp"
+        android:background="#FFFFFF"
+        android:layout_marginRight="20dp"
+        android:elevation="10dp"
+        android:layout_marginLeft="20dp"
+        android:visibility="invisible"
+        android:textSize="20sp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|bottom"
+        android:id="@+id/buttonStart"
+        android:text="Start"
+        android:padding="10dp"
+        android:layout_margin="20dp"
+        android:paddingRight="10dp"/>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|bottom"
+        android:id="@+id/buttonStop"
+        android:text="Stop"
+        android:padding="10dp"
+        android:layout_margin="20dp"
+        android:paddingRight="10dp"/>
+
+
+</fragment>
+
+
